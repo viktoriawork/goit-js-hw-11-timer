@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  color: var(--primary-text-color);
+  font-family: sans-serif;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  margin: 100px auto;
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.field:not(:last-child) {
+  margin-right: 20px;
+}
